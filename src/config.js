@@ -10,4 +10,5 @@ if (!process.env.BOT_TOKEN) {
 
 export default {
   token: process.env.BOT_TOKEN,
+  port: process.env.PORT || null,
 };

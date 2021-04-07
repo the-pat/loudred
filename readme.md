@@ -1,6 +1,7 @@
 <p>
     <img width="256" height="256" src="/docs/assets/loudred.png">
 </p>
+
 # Loudred
 
 > A Discord bot for all your musical needs

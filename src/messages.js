@@ -17,7 +17,7 @@ const help = (client) =>
       msg.reply(`
       Commands:
         \`ping\`: replies **PONG!**
-        \`@loudred help\`: prints the **help** text
+        \`@Loudred help\`: prints the **help** text
       `)
   );
 

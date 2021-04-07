@@ -10,4 +10,12 @@
 
 ## Commands
 
-`throw new NotImplmentedException();`
+- `ping`: replies **PONG!**
+- `@Loudred help`: prints the **help** text
+
+## Future
+
+- [ ] Maintain a YouTube playlist based on links dropped in the channel
+- [ ] Maintain a Sporify playlist based on links dropped in the channel
+- [ ] Play music over a voice channel
+- [ ] Queue music for the voice channel

@@ -19,3 +19,4 @@
 - [ ] Maintain a Sporify playlist based on links dropped in the channel
 - [ ] Play music over a voice channel
 - [ ] Queue music for the voice channel
+- [ ] Add types

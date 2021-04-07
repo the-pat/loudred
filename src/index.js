@@ -2,9 +2,16 @@ import { Client } from "discord.js";
 import Koa from "koa";
 import favicon from "koa-favicon";
 import path from "path";
+import Rollbar from "rollbar";
 
 import config from "./config.js";
 import { handler } from "./messages.js";
+
+const rollbar = new Rollbar({
+  accessToken: config.rollbar.token,
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+});
 
 const client = new Client();
 

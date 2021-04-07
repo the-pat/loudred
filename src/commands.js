@@ -5,7 +5,7 @@ class Command {
   }
 }
 
-const help = (client) =>
+export const help = (client) =>
   new Command(
     (msg) =>
       msg.mentions &&
@@ -19,10 +19,9 @@ const help = (client) =>
       `)
   );
 
-const ping = new Command(
+export const ping = new Command(
   (msg) => msg.content === "ping",
   (msg) => msg.reply("PONG!")
 );
 
-export const help = help;
 export const commands = [ping];

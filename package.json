@@ -15,7 +15,9 @@
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
     "koa": "^2.13.1",
-    "koa-favicon": "^2.1.0"
+    "koa-favicon": "^2.1.0",
+    "rollbar": "^2.21.1",
+    "spotify-web-api-node": "^5.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

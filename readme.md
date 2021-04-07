@@ -1,4 +1,4 @@
-<p>
+<p align="center">
     <img width="256" height="256" src="/docs/assets/loudred.png">
 </p>
 

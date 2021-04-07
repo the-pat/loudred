@@ -1,32 +1,6 @@
+import { commands, help } from "./commands.js";
+
 const logger = console;
-
-class Command {
-  constructor(predicate, action) {
-    this.predicate = predicate;
-    this.action = action;
-  }
-}
-
-const help = (client) =>
-  new Command(
-    (msg) =>
-      msg.mentions &&
-      msg.mentions.users.has(client.user.id) &&
-      msg.content.includes("help"),
-    (msg) =>
-      msg.reply(`
-      Commands:
-        \`ping\`: replies **PONG!**
-        \`@Loudred help\`: prints the **help** text
-      `)
-  );
-
-const ping = new Command(
-  (msg) => msg.content === "ping",
-  (msg) => msg.reply("PONG!")
-);
-
-const commands = [ping];
 
 export const handler = (client) => {
   const helpCommand = help(client);
